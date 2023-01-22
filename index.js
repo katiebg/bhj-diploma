@@ -39,7 +39,7 @@ function setDefaultUser(database){
     database.defaults({
         users: [
           { name: "demo", email: "demo@demo", password: "demo", id: "1" }
-        ],
+        ],   
         accounts: [
           { name: "Банк", user_id: "1", id: "1" },
           { name: "Магазин", user_id: "1", id: "2" },
